@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./media/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AIB250 — Celebrating Amurica is Beck. Honoring 250 years of American freedom." />
+  <link rel="stylesheet" href="./style.css">
+  <title>Amurica is Beck | AIB250</title>
+</head>
+
+<body>
+
+  <div class="agree" id="agree-modal">
+    <div class="text-box">
+      <span class="modal-title">Ready to celebrate America's 250th?</span>
+      <div class="agree-buttons">
+        <button type="button" id="yes" class="btn-yes">YES!</button>
+        <a href="https://x.com/Amercia250X" class="btn-no">no.</a>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="canvas" aria-hidden="true">Your browser needs to join the AIB250 celebration.</canvas>
+
+  <header class="site-header">
+    <img class="logo" src="./media/logo.png" alt="AIB250 Logo">
+    <span class="title america-font">Amurica is Beck</span>
+    <div class="header-links">
+      <a href="https://x.com/Amercia250X" aria-label="Follow on X">
+        <img class="header-img" src="./media/twitter.png" alt="X">
+      </a>
+    
+      <a href="https://dexscreener.com/solana/AIBPUMP" aria-label="View on DexScreener">
+        <img class="header-img" src="./media/dexscreener.png" alt="DexScreener">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="top-gradient"></div>
+      <img class="bottom-left parallax-slow" src="./media/bottom_left.png" alt="" aria-hidden="true">
+      <img class="top-right parallax-slow" src="./media/top_right.png" alt="" aria-hidden="true">
+
+      <div class="hero-stuff">
+        <p class="reveal">
+          <strong>Honoring 250 years of American freedom • AIB250</strong><br><br>
+          Amurica is Beck marks 250 years since the signing of the Declaration of Independence in 1776. AIB250 is a celebration of this historic milestone — honoring the courage, resilience, and spirit that built the United States.
+        </p>
+
+        <button type="button" class="contract reveal" id="copy-contract" title="Click to copy">
+          <span class="contract-label">Contract</span>
+          <span class="contract-value">AIBPUMP</span>
+          <span class="copy-hint">Click to copy</span>
+        </button>
+
+        <span class="symbol reveal america-font">$AIB250</span>
+
+        <img class="signature reveal" src="./media/signature.png" alt="Signature">
+      </div>
+    </section>
+
+    <section id="two">
+      <section id="about" class="scanlines reveal-left">
+        <img class="about-img" src="./media/1.jpg" alt="American heritage">
+        <div class="about-content">
+          <h2 class="section-title america-font">ABOUT</h2>
+          <p>Amurica is Beck marks 250 years since the signing of the Declaration of Independence in 1776. AIB250 is a celebration of this historic milestone — honoring the courage, resilience, and spirit that built the United States. From liberty and self-governance to the generations who defended them, we reflect on our shared story and look forward to the next chapter.</p>
+          <img class="about-gif" src="./media/cheeseburger.gif" alt="">
+        </div>
+      </section>
+
+      <section id="tokenomics" class="scanlines reveal-right">
+        <div class="tokenomics-content">
+          <h2 class="section-title america-font">TOKENOMICS</h2>
+          <ul class="token-list">
+            <li><span class="token-name">Heritage &amp; Unity</span><span class="token-pct">25%</span></li>
+            <li><span class="token-name">Freedom &amp; Liberty</span><span class="token-pct">25%</span></li>
+            <li><span class="token-name">Community Celebration</span><span class="token-pct">25%</span></li>
+            <li><span class="token-name">Future Promise</span><span class="token-pct">25%</span></li>
+          </ul>
+          <em class="token-tagline">1776–2026 • AIB250</em>
+          <img class="token-gif" src="./media/pancacke.gif" alt="">
+        </div>
+        <img class="tokenomics-img" src="./media/2.jpg" alt="Tokenomics">
+      </section>
+    </section>
+
+    <section id="three">
+      <div class="top-gradient-two"></div>
+      <div class="top-gradient"></div>
+      <h2 class="section-heading america-font reveal">1776–2026</h2>
+      <div class="video-wrapper reveal-scale">
+        <video controls autoplay muted loop playsinline>
+          <source src="./media/america_1.mp4" type="video/mp4" />
+        </video>
+        <div class="inset-shadow"></div>
+        <div class="video-glow" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="four">
+      <h2 class="section-heading america-font reveal">Celebrate AIB250</h2>
+      <div class="meme-gallery">
+        <img class="meme-item" src="./media/meme1.png" alt="Meme 1">
+        <img class="meme-item" src="./media/meme2.png" alt="Meme 2">
+        <img class="meme-item" src="./media/meme3.png" alt="Meme 3">
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="america-font">🇺🇸 AIB250 — Amurica is Beck</p>
+    <div class="footer-links">
+      <a href="https://x.com/Amercia250X">X / Twitter</a>
+      
+      <a href="https://dexscreener.com/solana/AIBPUMP">DexScreener</a>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
