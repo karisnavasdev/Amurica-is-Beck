@@ -684,6 +684,10 @@ video {
 }
 
 .meme-item {
+  width: 100%;
+  aspect-ratio: 1402 / 1122;
+  object-fit: cover;
+  display: block;
   border-radius: 8px;
   overflow: hidden;
   opacity: 0;
